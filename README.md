@@ -1,4 +1,5 @@
-Design: Producer(SingleThreadedMarketDataProducerService) and Listener(MarketDataListenerService) starts during the start-up of application.
+Design: 
+Producer(SingleThreadedMarketDataProducerService) and Listener(MarketDataListenerService) starts during the start-up of application.
 
 Lock-free implementation, used reactor based and Gradlle(spring boot for REST, IOC and package management).
 
