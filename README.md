@@ -17,10 +17,17 @@ Assumptions: API MarketDataService, returns empty when currency pair doesn't exi
 
 Improvements: 
 Interface extraction, 
+
 to make it more interface based coupling. 
+
 Queue implementation, depends on requirements 
+
 Test coverage 
+
 Error handling 
+
 Logging 
+
 Extend current solution to support more producers 
+
 Springbok - replacement
