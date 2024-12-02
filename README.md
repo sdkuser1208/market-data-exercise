@@ -1,4 +1,4 @@
-Design: 
+**Design: **
 
 Producer(SingleThreadedMarketDataProducerService) and Listener(MarketDataListenerService) starts during the start-up of application.
 
@@ -10,16 +10,21 @@ Market Data Service reads from Repo whenever a request for currency pair, if the
 
 Tested parallel consumers running at the same time, please refer to integration test MarketDataServiceIntegrationTest.
 
-Technology: Why Reactor was used over Vert.x: Have been using reactor currently at work for past 5 years and used Vert.X only in one project 
+**Technology:** 
+
+Why Reactor was used over Vert.x: Have been using reactor currently at work for past 5 years and used Vert.X only in one project 
 so purely based on familiarity and quickness to deliver the exercise were the reason to choose this technology.
 
 And referred Spring docs for spring boot test while implementation.
 
-Assumptions: API MarketDataService, returns empty when currency pair doesn't exist in MarketDataRepo.
+**Assumptions:** 
 
-Improvements: 
+API MarketDataService, returns empty when currency pair doesn't exist in MarketDataRepo.
+
+**Improvements: **
 
 Interface extraction. 
+
 Make it more interface based coupling. 
 
 Queue implementation, depends on requirements 
