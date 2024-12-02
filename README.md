@@ -1,4 +1,5 @@
 Design: 
+
 Producer(SingleThreadedMarketDataProducerService) and Listener(MarketDataListenerService) starts during the start-up of application.
 
 Lock-free implementation, used reactor based and Gradlle(spring boot for REST, IOC and package management).
@@ -18,9 +19,8 @@ Assumptions: API MarketDataService, returns empty when currency pair doesn't exi
 
 Improvements: 
 
-Interface extraction, 
-
-to make it more interface based coupling. 
+Interface extraction. 
+Make it more interface based coupling. 
 
 Queue implementation, depends on requirements 
 
