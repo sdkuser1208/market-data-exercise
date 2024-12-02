@@ -16,6 +16,7 @@ And referred Spring docs for spring boot test while implementation.
 Assumptions: API MarketDataService, returns empty when currency pair doesn't exist in MarketDataRepo.
 
 Improvements: 
+
 Interface extraction, 
 
 to make it more interface based coupling. 
