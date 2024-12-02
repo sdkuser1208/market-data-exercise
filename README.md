@@ -1,4 +1,4 @@
-**Design: **
+**Design:**
 
 Producer(SingleThreadedMarketDataProducerService) and Listener(MarketDataListenerService) starts during the start-up of application.
 
@@ -21,7 +21,7 @@ And referred Spring docs for spring boot test while implementation.
 
 API MarketDataService, returns empty when currency pair doesn't exist in MarketDataRepo.
 
-**Improvements: **
+**Improvements:**
 
 Interface extraction. 
 
